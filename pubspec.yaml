@@ -1,0 +1,17 @@
+name: is_logbook_format
+description: >-
+  The format an is_logbook keeps and speaks: the 96-byte entry, the hash
+  that chains entries, and the kind an entry's bytes start with. No writer,
+  no service, no sockets.
+version: 0.1.0
+repository: https://github.com/intersyntactic/logbook_format
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  is_content_id: ^0.2.0
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.33.0
